@@ -18,4 +18,7 @@ export default defineConfig({
       },
     },
   },
+  optimizeDeps: {
+    include: ['@radix-ui/react-navigation-menu', '@radix-ui/react-dialog']
+  }
 });
